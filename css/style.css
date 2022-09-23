@@ -1,0 +1,677 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section CSS */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.bgimg {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/937102.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.bgimg h3 {
+  color: orange;
+  position: relative;
+  top: 100px;
+  margin-left: 50px;
+  font-size: 40px;
+}
+
+.bgimg h2 {
+  color: orange;
+  position: relative;
+  top: 100px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+.bgimg button {
+  color: orange;
+  position: relative;
+  top: 100px;
+  margin-left: 50px;
+  background: white;
+  color: orange;
+  padding: 10px 40px;
+  border: 1px solid white;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.mobile-nav-icon {
+  position: relative;
+  top: 30px;
+  right: 30px;
+  color: orange;
+  cursor: pointer;
+}
+
+.mobile-navbar-btn {
+  display: none;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+
+.bgimg button:hover {
+  background: orange;
+  color: white;
+  border: 1px solid orange;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+/* About section css */
+
+.about {
+  display: flex;
+  align-items: center;
+  margin: 100px 0px;
+}
+
+.about div {
+  width: 40%;
+  padding: 10px 45px;
+}
+
+.about div h2 {
+  color: orange;
+  font-size: 60px;
+}
+
+.about div h3 {
+  color: grey;
+  font-size: 26px;
+}
+
+.about div hr {
+  background-color: orange;
+  border: 1px solid orange;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.about div p {
+  font-size: 20px;
+  text-align: justify;
+  color: grey;
+}
+
+.about div button {
+  background: white;
+  color: orange;
+  padding: 10px 40px;
+  border: 1px solid orange;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.about div button:hover {
+  background: orange;
+  color: white;
+  border: 1px solid orange;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+.about_photos {
+  display: flex;
+}
+
+.about_photos1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/cnc.jpg);
+  background-size: cover;
+  width: 33.3%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+.about_photos2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/CNC\ machine\ shop\ workers.webp);
+  background-size: cover;
+  width: 33.3%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+.about_photos3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../img/moto-photo.jpg);
+  background-size: cover;
+  width: 33.3%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+/* our products css */
+
+.product_detail {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 50px auto;
+}
+
+.product_detail_text h2 {
+  font-size: 50px;
+  color: orange;
+}
+
+.product_detail_text hr {
+  background-color: orange;
+  border: 1px solid orange;
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.product_detail_text p {
+  font-size: 20px;
+  color: orange;
+}
+
+.product_button button {
+  background: white;
+  color: orange;
+  padding: 10px 40px;
+  border: 1px solid orange;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.product_button button:hover {
+  background: orange;
+  color: white;
+  border: 1px solid orange;
+  cursor: pointer;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+.products_photos {
+  display: flex;
+  width: 60%;
+  margin: 10px auto;
+  justify-content: space-around;
+}
+
+.products_photos img {
+  width: 250px;
+  border: 2px solid orange;
+}
+
+.product_photo1:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.products_photos h4 {
+  margin-top: -7px;
+  border: 1px solid orange;
+  text-align: center;
+  padding: 10px;
+  color: white;
+  background: orange;
+}
+
+
+/* Video of factory section */
+.company-video iframe{
+  width: 100%;
+  height: 500px;
+  margin-bottom: -4px;
+  margin-top: 20px;
+}
+
+
+/*Footer Section */
+.foot{
+  background: rgb(28, 26, 26);
+  height: 400px;
+}
+
+.ab{
+  color: white;
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  justify-content: space-around;
+  padding: 88px;
+}
+
+.ab h4{
+  font-size: 30px;
+  margin-bottom: 6px;
+}
+
+.ab ul li{
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.ab ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.ab-copyright{
+  color: grey;
+  width: 80%;
+  margin: auto;
+}
+
+.ab-copyright hr{
+  margin-bottom: 12px;
+}
+
+.ab-follow ul{
+  display: flex;
+}
+
+.ab-follow ul li a img{
+  width: 28px;
+  margin: 7px;
+}
+
+/* ===================================================================
+======================= Responsive Code =============================
+==================================================================== */
+
+
+
+@media screen and (max-width:1066px) {
+  .bgimg h2 {
+    font-size: 50px;
+  }
+
+  .bgimg h3 {
+    font-size: 30px;
+  }
+
+  .bgimg button {
+  padding: 10px 40px;
+  border: 1px solid white;
+  font-size: 15px;
+  }
+
+    .ab{
+    width: 100%;
+    padding: 80px 5px;
+  }
+}
+
+
+
+@media screen and (max-width: 922px) {
+  /* .mobile-navbar-btn{
+    display: block;
+  } */
+
+  .bgimg h2 {
+    font-size: 30px;
+  }
+
+  .bgimg h3 {
+    font-size: 20px;
+  }
+
+  .bgimg button {
+  padding: 8px 30px;
+  border: 1px solid white;
+  font-size: 10px;
+  }
+
+  .about_photos {
+    display: flex;
+    width: 100%;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .bgimg {
+    height: 60vh;
+  }
+
+  .menu ul li {
+    margin: 10px 30px;
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  header {
+    height: 60px;
+  }
+
+  .product_button button {
+    font-size: 10px;
+    margin-top: 14px;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+  }
+  
+  .about div h2 {
+    font-size: 40px;
+  }
+  
+  .about div h3 {
+    font-size: 20px;
+  }
+  
+  .about div hr {
+    width: 70px;
+  }
+  
+  .about div p {
+    font-size: 15px;
+  }
+  
+  .about div button {
+    padding: 8px 30px;
+    font-size: 15px;
+  }
+  
+  .about_photos {
+    display: flex;
+  }
+  
+  .about_photos1 {
+    height: 200px;
+  }
+  
+  .about_photos2 {
+    height: 200px;
+  }
+  .about_photos3 {
+    height: 200px;
+  }
+  .company-video iframe{
+    height: 350px;
+  }
+}
+
+
+@media screen and (max-width:762px) {
+  .menu ul li {
+    margin: 5px 20px;
+    padding: 10px;
+    font-size: 10px;
+  }
+
+  header {
+    height: 40px;
+  }
+
+
+  .bgimg h2 {
+    font-size: 25px;
+  }
+
+  .bgimg h3 {
+    font-size: 15px;
+  }
+
+  .bgimg button {
+  padding: 5px 20px;
+  border: 1px solid white;
+  font-size: 10px;
+  }
+
+  .product_detail_text h2 {
+    font-size: 30px;
+  }
+  
+  .product_detail_text hr {
+    width: 50px;
+  }
+  
+  .product_detail_text p {
+    font-size: 15px;
+  }
+  
+  .product_button button {
+    padding: 5px 20px;
+    font-size: 10px;
+  }
+  
+  .products_photos {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: space-around;
+  }
+  
+  .products_photos img {
+    width: 200px;
+    border: 2px solid orange;
+  }
+
+  .company-video iframe{
+    height: 300px;
+  }
+
+  .foot{
+    background: rgb(28, 26, 26);
+    height: 400px;
+  }
+  .ab{
+    width: 100%;
+    padding: 80px 5px;
+    flex-wrap: wrap;
+  }
+
+}
+
+
+@media screen and (max-width:628px) {
+  .menu ul li {
+    margin: 3px 15px;
+    padding: 8px;
+    font-size: 12px;
+  }
+  
+  .about_photos1 {
+    height: 150px;
+  }
+  
+  .about_photos2 {
+    height: 150px;
+  }
+  .about_photos3 {
+    height: 150px;
+  }
+
+  .products_photos img {
+    width: 150px;
+    border: 2px solid orange;
+  }
+
+  .foot{
+    background: rgb(28, 26, 26);
+    height: 400px;
+  }
+  .ab{
+    width: 100%;
+    padding: 30px 5px;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width:542px) {
+  .menu ul li {
+    margin: 2px 15px;
+    padding: 8px;
+    font-size: 10px;
+  }
+
+  header {
+    height: 30px;
+  }
+
+
+  .bgimg h3 {
+    position: relative;
+    top: 80px;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+  
+  .bgimg h2 {
+    position: relative;
+    top: 80px;
+    margin-left: 20px;
+    font-size: 25px;
+  }
+  
+  .bgimg button {
+    position: relative;
+    top: 80px;
+    margin-left: 20px;
+    padding: 5px 20px;
+    font-size: 10px;
+  }
+  
+  .products_photos {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: space-around;
+  }
+  
+  .products_photos img {
+    width: 150px;
+    border: 2px solid orange;
+  }
+
+  .foot{
+    background: rgb(28, 26, 26);
+    height: 500px;
+  }
+  .ab{
+    width: 100%;
+    padding: 30px 5px;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and (max-width:470px) {
+  .menu ul li {
+    margin: 2px 10px;
+    padding: 5px;
+    font-size: 8px;
+  }
+
+  header {
+    height: 20px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px;
+  }
+
+  .about div {
+    width: 80%;
+    padding: 10px 45px;
+  }
+
+  .products_photos {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .products_photos h4{
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .products_photos img {
+    width: 99%;
+    border: 2px solid orange;
+  }
+
+  .products_photos_hidden{
+    display: none;
+  }
+
+  .about_photos1 {
+    display: none;
+  }
+  
+  .about_photos2 {
+    width: 100%;
+    height: 300px;
+  }
+  .about_photos3 {
+    display: none;
+  }
+
+  .product_detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    margin: 50px auto;
+  }
+
+  .foot{
+    background: rgb(28, 26, 26);
+    height: 500px;
+  }
+  .ab{
+    width: 100%;
+    padding: 30px 5px;
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width:326px) {
+  
+  .foot{
+    background: rgb(28, 26, 26);
+    height: 700px;
+  }
+  .ab{
+    width: 100%;
+    padding: 30px 5px;
+    flex-wrap: wrap;
+  }
+
+}
+
+/* ===================================================================
+======================= Responsive Code =============================
+==================================================================== */
+
